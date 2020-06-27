@@ -20,22 +20,12 @@
 
 using namespace std;
 
-int main(int argc, char* argv[])
-{
+int main() {
 	const char* FIN  = "sample.in";
 	const char* FOUT = "sample.out";
-	const char* inFile = argc > 1 ? argv[1] : FIN;
-	ifstream fin(inFile);
+	ifstream fin(FIN);
 	ofstream fout(FOUT);
-
-	//////////////////////////////////////
-	// Start your solution from here...
-
-
-
-	// End of your soulution.
-	//////////////////////////////////////
-
+	
 	return 0;
 }
 

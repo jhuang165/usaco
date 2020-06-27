@@ -4,7 +4,7 @@
  * LANG: C++11
  * RESULT: 8/10
  * TIME: 1ms
- * COMMENT: test1
+ * COMMENT: Tried DP at first, but seems more like a graph problem
  * */
 #include <algorithm>
 #include <iostream>
